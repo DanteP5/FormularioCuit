@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(afip.jpg);
+    /* background-image: url(http://www.cda.org.ar/img_articulos/eaa92a9d15dd54e8aa278627e13fc5d2.jpg); */
+    background-size: 500px;
+    background-attachment: fixed;
+    background-position: center;
+}
+section{
+    /* background-color: blue; */
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    font-family: sans-serif;
+}
+.contenedor{
+    width: 100%;
+    max-width: 500px;
+    /* background-color: green; */
+    margin: auto;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+}
+li{
+    /* background-color: red; */
+    margin: 10px auto;
+    list-style-type: none;
+}
+li:nth-child(4){
+    text-align: center;
+}
+#sexo{
+    width: 20px;
+}
+#dni{
+    width: 100px;
+}
+button{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    width: 100px;
+}
+#resultado{
+    height: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
